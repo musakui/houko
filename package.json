@@ -10,6 +10,7 @@
 		"dev": "vite"
 	},
 	"dependencies": {
+		"@musakui/vueuse": "latest",
 		"vue": "^3.5.10",
 		"vue-router": "^4.5.0"
 	},
