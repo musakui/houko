@@ -1,5 +1,6 @@
 {
 	"compilerOptions": {
+		"noEmit": true,
 		"allowJs": true,
 		"lib": ["ESNext", "DOM", "DOM.Iterable"]
 	}

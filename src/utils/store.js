@@ -1,6 +1,9 @@
 import { useStorage } from '@musakui/vueuse'
 
-const initial = { links: [{ path: '/', name: 'home' }] }
+const initial = {
+	links: [{ path: '/', name: 'home' }],
+	configs: /** @type {Record<string, import('../types').DataConfig>} */({})
+}
 
 export const useStore = () => {
 	const store = useStorage({ initial })
