@@ -2,6 +2,7 @@
 	"compilerOptions": {
 		"strict": true,
 		"noEmit": true,
+		"checkJs": true,
 		"allowJs": true,
 		"target": "ESNext",
 		"module": "ESNext",
